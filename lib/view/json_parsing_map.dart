@@ -13,11 +13,14 @@ class JsonParsingMap extends StatefulWidget {
 class _JsonParsingMapState extends State<JsonParsingMap> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Text("Fuck Off"),
-    );
+    return Container();
   }
 }
+
+
+
+
+
 class Network {
   final String url;
 
