@@ -1,4 +1,6 @@
-import 'package:api_practice/parsing_json/jason_parsing.dart';
+
+import 'package:api_practice/view/home.dart';
+import 'package:api_practice/view/jason_parsing.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: JsonParsing(),
+      home: Home(),
     );
   }
 }
