@@ -22,6 +22,7 @@ class Home extends StatelessWidget {
                   labelColor: Colors.red,
                   indicatorSize: TabBarIndicatorSize.label,
                   indicatorColor: Colors.red,
+                  unselectedLabelColor: Colors.grey,
                   tabs: [
                     Tab(
                       text: "Parsing Simple JSON",
