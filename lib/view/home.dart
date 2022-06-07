@@ -19,8 +19,9 @@ class Home extends StatelessWidget {
             Container(
               //constraints: BoxConstraints(maxHeight: 150.0),
               child: TabBar(
-                  labelColor: Colors.black,
-                  indicatorColor: Colors.black,
+                  labelColor: Colors.red,
+                  indicatorSize: TabBarIndicatorSize.label,
+                  indicatorColor: Colors.red,
                   tabs: [
                     Tab(
                       text: "Parsing Simple JSON",

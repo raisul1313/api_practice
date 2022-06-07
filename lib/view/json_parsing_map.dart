@@ -37,7 +37,9 @@ class _JsonParsingMapState extends State<JsonParsingMap> {
                 } else if (snapshot.hasError) {
                   return Icon(Icons.error_outline);
                 } else {
-                  return CircularProgressIndicator();
+                  return CircularProgressIndicator(
+                    color: Colors.amber,
+                  );
                 }
               }),
         ),
