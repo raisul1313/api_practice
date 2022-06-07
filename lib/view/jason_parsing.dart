@@ -33,9 +33,7 @@ class _JsonParsingState extends State<JsonParsing> {
               } else if (snapshot.hasError) {
                 return Icon(Icons.error_outline);
               } else {
-                return CircularProgressIndicator(
-                  color: Colors.deepPurple,
-                );
+                return CircularProgressIndicator();
               }
             }),
       ),
@@ -74,9 +72,12 @@ Widget createListView(List data, BuildContext context) {
                 leading: Column(
                   children: [
                     CircleAvatar(
-                      backgroundColor: Colors.black26,
+                      backgroundColor: Colors.green,
                       radius: 23,
-                      child: Text("${data[index]['id']}"),
+                      child: Text(
+                        "${data[index]['id']}",
+                        style: TextStyle(color: Colors.white),
+                      ),
                     )
                   ],
                 )),
